@@ -1,0 +1,63 @@
+<?php
+/**
+ * @Author: Alex Dong
+ * @Date:   2020-04-15 18:40:02
+ * @Last Modified by:   Alex Dong
+ * @Last Modified time: 2020-04-15 18:52:58
+ */
+$helper = $this->helper('Magepow\Instagram\Helper\Data');
+if(!$helper->getConfigModule('general/enabled')) return;
+$selector   = 'instagram-' . uniqid();
+$username   = $helper->getConfigModule('general/username');
+if(!$username) return;
+$accessToken   = $helper->getConfigModule('general/accessToken');
+if($accessToken) $accessToken = "accessToken: '$accessToken',";
+$limit      = $helper->getConfigModule('general/limit');
+?>
+<div class="social-feed instagram clearfix <?php /* @escapeNotVerified */ echo $selector ?>">
+    <section class="section-content"
+        data-autoplay="true" 
+        data-autoplay-speed="0" 
+        data-speed="6000"
+        data-dots="false" 
+        data-css-ease="linear"
+        data-infinite="true" 
+        data-padding="15" 
+        data-vertical="false" 
+        data-vertical-swiping="false"
+        data-rows="1" 
+        data-slides-to-show="6" 
+        data-swipe-to-slide="true"
+        data-arrows="false" 
+        data-responsive='[{"breakpoint": 1921, "settings": {"slidesToShow": 6}}, {"breakpoint": 1920, "settings": {"slidesToShow": 6}}, {"breakpoint": 1200, "settings": {"slidesToShow": 5}}, {"breakpoint": 992, "settings": {"slidesToShow": 4}}, {"breakpoint": 768, "settings": {"slidesToShow": 3}}, {"breakpoint": 576, "settings": {"slidesToShow": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 2}}, {"breakpoint": 361, "settings": {"slidesToShow": 1}}, {"breakpoint": 1, "settings": {"slidesToShow": 1}}]'
+    >
+        <h4 class="title"><?php /* @escapeNotVerified */ echo $this->getTitle() ?></h4>
+    </section>
+</div>
+
+<script type="text/javascript">
+    require([
+        'jquery',
+        'magepow/slick',
+        'magepow/instagram',
+        ], function($, slick, instagram){
+            $('.<?php echo $selector?> .section-content').instagram({
+                username: '<?php echo $username ?>',
+                limit: <?php echo $limit ?>,
+                <?php echo $accessToken ?>
+                lazy : false,
+                afterload: function() {
+                    var el = $(this).find('.social-list');
+                    if( el.length ){
+                        if( !$(this).data( 'vertical') && $('body').hasClass('rtl') ){
+                            el.attr('dir', 'rtl');
+                            $(this).data( 'rtl', true );
+                        } 
+                        var options = $(this).data();
+                        el.slick(options);
+                    }   
+            
+                }
+            }) 
+    });
+</script>

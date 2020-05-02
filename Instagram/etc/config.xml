@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- /**
+ * @Author: nguyen
+ * @Date:   2020-02-12 14:01:01
+ * @Last Modified by:   nguyen
+ * @Last Modified time: 2020-02-15 18:55:34
+ */ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+	    <magepow_instagram>
+            <general>
+                <enabled>1</enabled>
+                <username>mikutas</username>
+                <accessToken></accessToken>
+                <limit>12</limit>
+                <lazyload>1</lazyload>
+            </general>
+        </magepow_instagram>    
+	</default>
+</config>

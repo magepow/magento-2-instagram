@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!-- /**
+ * @Author: nguyen
+ * @Date:   2020-02-12 14:01:01
+ * @Last Modified by:   nguyen
+ * @Last Modified time: 2020-02-15 18:55:34
+ */ -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="magepow" translate="label" sortOrder="86">
+            <label>Magepow</label>
+        </tab>
+        <section id="magepow_instagram" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Instagram</label>
+            <tab>magepow</tab>
+            <resource>Magepow_Instagram::config_instagram</resource>
+            <group id="general" translate="label" type="text" sortOrder="5" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General</label>
+                <field id="enabled" translate="label comment" type="select" sortOrder="0"  showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enabled</label>
+                    <comment>Enabled Module</comment>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="username" translate="label comment" type="text" sortOrder="0"  showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>User Name: </label>
+                    <comment>User Name</comment>
+                </field>
+                <field id="accessToken" translate="label comment" type="text" sortOrder="2"  showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Access Token: </label>
+                    <comment>Get access Token follow guide here: http://instagramwordpress.rafsegat.com/docs/get-access-token/</comment>
+                </field>
+                <field id="limit" translate="label comment" type="text" sortOrder="5"  showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Limit</label>
+                    <comment>Limit</comment>
+                    <validate>validate-zero-or-greater</validate>
+                </field>
+<!--                 <field id="tags" translate="label comment" type="text" sortOrder="3"  showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Tags</label>
+                    <comment>Tags</comment>
+                </field>
+                <field id="lazyload" translate="label comment" type="select" sortOrder="10"  showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Lazyload Image</label>
+                    <comment>Lazyload Image optimizer speed from 3rd site</comment>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field> -->
+            </group>
+        </section>
+    </system>
+</config>
