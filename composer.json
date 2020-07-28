@@ -2,7 +2,7 @@
   "name": "magepow/instagram",
   "description": "Magento 2 Instagram helps merchants integrate their online store with their Instagram.",
     "require": {
-    "magepow/core": "^1.0.0",
+    "magepow/core": "^1.0.0"
   },
   "type": "magento2-module",
   "license": [
