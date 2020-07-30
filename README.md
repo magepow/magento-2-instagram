@@ -5,6 +5,7 @@ Before you continue, ensure you meet the following requirements:
 
   * You have installed magento2
   * You are using a Linux or Mac OS machine. Windows is not currently supported.
+  Install magento2-instagram extension
 
 # Step 1 : Download magento2-instagram extension
 
@@ -47,7 +48,7 @@ php bin/magento setup:static-content:deploy -f
     
    ![Image of magento admin config widget ](https://github.com/magepow/magento2-instagram/blob/master/media/storefrontcofigwidget.PNG)
    
-   * Theme : Slect blank or luma theme
+   * Theme : Select blank or luma theme
    * Widget title : choose any title name that you want
    * Store view : Select kind of store views you want
    * Sorted order : Dertimine the order of the widget
