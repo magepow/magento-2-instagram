@@ -33,7 +33,7 @@ php bin/magento setup:static-content:deploy -f
 
   Login to magento admin, choose : stores->configuration->magepow->instagram
   
-  ![Image of magento admin](https://github.com/thuythunguyen/image/blob/master/Capture1.PNG)
+  ![Image of magento admin config](https://github.com/thuythunguyen/image/blob/master/config.PNG)
 
   Select yes to enable the module and configure name, accesstoken of your instagram and limitation
   
@@ -41,27 +41,28 @@ php bin/magento setup:static-content:deploy -f
   
    Choose content->wigdet then add widget
    
-   ![Image of magento admin](https://github.com/thuythunguyen/image/blob/master/Capture2.PNG)
+   ![Image of magento admin widget](https://github.com/thuythunguyen/image/blob/master/widget.PNG)
     
     
    Choose instagram widget
     
-   ![Image of magento admin](https://github.com/thuythunguyen/image/blob/master/Capture3.PNG)
+   ![Image of magento admin config widget ](https://github.com/thuythunguyen/image/blob/master/storefrontconfigwidget.PNG)
    
    * Theme : Slect blank or luma theme
    * Widget title : choose any title name that you want
    * Store view : Select kind of store views you want
    * Sorted order : Dertimine the order of the widget
    
-   ![Image of magento admin](https://github.com/thuythunguyen/image/blob/master/Capture4.PNG)
+   ![Image of magento admin config widget](https://github.com/thuythunguyen/image/blob/master/storefrontconfigwidgetlayout.PNG)
    
    * Display on : Select the page you want to display your instagram widget on
    * Container : Select the position of your widget
    
    Run the following command:
-      
-   php bin/magento cache:clean
    
+   ```
+   php bin/magento cache:clean
+   ```
   ## 3. Result
    
    ![Image of magento store front](https://github.com/thuythunguyen/image/blob/master/result.PNG)
@@ -70,56 +71,21 @@ php bin/magento setup:static-content:deploy -f
 
 * Magento 2 Recent Sales Notification
 
-* Magento 2 Categories Extension
+* [Magento 2 Categories Extension](https://magepow.com/magento-categories-extension.html)
 
-* Magento 2 Sticky Cart
+* [Magento 2 Sticky Cart](https://magepow.com/magento-sticky-cart.html)
 
 **Premium Extensions List**
 
-* Magento 2 Pages Speed Optimizer
+* [Magento 2 Pages Speed Optimizer](https://magepow.com/magento2-speed-optimizer.html)
 
-* Magento 2 Mutil Translate
+* [Magento 2 Mutil Translate](https://magepow.com/magento-multi-translate.html)
 
-* Magento 2 Instagram Integration
+* [Magento 2 Instagram Integration](https://magepow.com/magento-2-instagram.html)
 
-* Magento 2 Lookbook Pin Products
+* [Magento 2 Lookbook Pin Products](https://magepow.com/lookbook-pin-products.html)
 
-**Featured Magento Themes**
 
-* Expert Multipurpose responsive Magento 2 Theme
-
-* Gecko Premium responsive Magento 2 Theme
-
-* Milano Fashion responsive Magento 2 Theme
-
-* Electro responsive Magento 2 Theme
-
-* Pizzaro Food responsive Magento 2 Theme
-
-* Biolife Organic responsive Magento 2 Theme
-
-* Market responsive Magento 2 Theme
-
-* Kuteshop responsive Magento 2 Theme
-
-**Featured Magento Services**
-
-* PSD to Magento 2 Theme Conversion
-
-* Magento Speed Optimization Service
-
-* Magento Security Patch Installation
-
-* Magento Website Maintenance Service
-
-* Magento Professional Installation Service
-
-* Magento Upgrade Service
-
-* Customization Service
-
-* Hire Magento Developer
-      
 
 
 
