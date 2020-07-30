@@ -9,33 +9,37 @@ Before you continue, ensure you meet the following requirements:
 
 # Step 1 : Download magento2-instagram extension
 
-  You can either clone or download manually this module on https://github.com/magepow/magento2-instagram
+ a. Install via composer (recommend)
+Run the following commands in Magento 2 root folder:
 
-  Run following command:
+composer require magepow/instagram
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy -f
 
-  git clone https://github.com/magepow/magento2-instagram
+b. Install manual
+* extract file from archive
+* deploy file into Magento2 folder app/code/magepow/instagram. Run following commands
 
-  php bin/magento setup:upgrade
-
-  php bin/magento setup:static-content:deploy
-
-  Make sure your module file flows under the path app/code/module-file
+ php bin/magento setup:upgrade
+ php bin/magento setup:static-content:deploy -f
+ php bin/magento cache:flush
 
 # Step 2: User guide
 
-  1. How to configure
+  1. General configuration
 
   Login to magento admin, choose : stores->configuration->magepow->instagram
   
   ![Image of magento admin](https://github.com/thuythunguyen/image/blob/master/Capture1.PNG)
 
-  Config as you want then save
+  Select yes to enable the module
+  
 
   2. Instagram widget
 
     Choose content->wigdet then add widget
     
-    ![Image of magento admin](https://github.com/thuythunguyen/image/blob/master/Capture2.PNG)
+    ![Image of magento admin](https://github.com/thuythunguyen/image/blob/master/Capture1.PNG)
     
     Choose instagram widget and other options you want
     
