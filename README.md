@@ -46,14 +46,14 @@ php bin/magento setup:static-content:deploy -f
     
    Choose instagram widget
     
-   ![Image of magento admin config widget ](https://github.com/thuythunguyen/image/blob/master/storefrontconfigwidget.PNG)
+   ![Image of magento admin config widget ](https://github.com/thuythunguyen/image/blob/master/storefrontcofigwidget.PNG)
    
    * Theme : Slect blank or luma theme
    * Widget title : choose any title name that you want
    * Store view : Select kind of store views you want
    * Sorted order : Dertimine the order of the widget
    
-   ![Image of magento admin config widget](https://github.com/thuythunguyen/image/blob/master/storefrontconfigwidgetlayout.PNG)
+   ![Image of magento admin config widget](https://github.com/thuythunguyen/image/blob/master/storefrontcofigwidgetlayout.PNG)
    
    * Display on : Select the page you want to display your instagram widget on
    * Container : Select the position of your widget
