@@ -10,8 +10,8 @@
 	    <magepow_instagram>
             <general>
                 <enabled>1</enabled>
-                <username>mikutas</username>
-                <accessToken></accessToken>
+                <username>aloteam</username>
+                <accessToken>IGQVJXTlN0Mjh1azVpUkUxU1JEcDdBa25RT3A0OW5mQUswT0tCVHRacW9BUDljZAV8tbkxaY0tIVDhzNkEzMVllc3V6aUVMNFA5SkFndTdFS1pmMldSZA3FZAQmxJRUdmVFg5SjlSNmJ3cFJiekl1dTctSAZDZD</accessToken>
                 <limit>12</limit>
                 <lazyload>1</lazyload>
             </general>
