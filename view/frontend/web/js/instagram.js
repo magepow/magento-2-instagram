@@ -2,7 +2,7 @@
  * @Author: Alex Dong
  * @Date:   2020-04-15 18:40:02
  * @Last Modified by:   Alex Dong
- * @Last Modified time: 2020-07-25 17:14:24
+ * @Last Modified time: 2020-08-02 20:25:13
  */
 
 (function ($) {
@@ -36,7 +36,7 @@
                 var limit        = options.limit;
                 $.getJSON( url, {'access_token': access_token, 'limit': limit, 'fields': 'id, caption, comments_count, like_count, media_type, media_url, thumbnail_url, permalink' }, function (data) {
                     $.each(data.data, function (i, shot) {
-                       if (shot.media_type !== 'IMAGE') return;
+                        if (shot.media_type === 'VIDEO') return;
                         var photo_src = shot.media_url;
                         var photo_url = shot.permalink;
                         var photo_title = "";
