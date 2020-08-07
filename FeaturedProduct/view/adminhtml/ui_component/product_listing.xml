@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <columns name="product_columns">
+        <column name="is_featured" component="Magento_Ui/js/grid/columns/select" sortOrder="76"> <settings>
+            <addField>true</addField>
+            <options class="Magento\Config\Model\Config\Source\Yesno"/>
+            <filter>select</filter>
+            <dataType>select</dataType>
+            <sortable>false</sortable>
+            <label translate="true">Is featured</label> </settings>
+        </column> </columns> </listing>

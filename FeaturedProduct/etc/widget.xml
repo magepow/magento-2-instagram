@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+            <widget class="Magepow\featuredProduct\Block\Widget\FeaturedProductWidget" id="thuynt_grid_featuredproductwidget">
+                        <label>featured Product Widget</label>
+                        <description></description>
+                        <parameters>
+
+                                   			<parameter name="productcount" xsi:type="text"  visible="true" sort_order="1" >
+                                   				<label translate="true">Product Count</label>
+                                   			</parameter>
+                                   			<parameter name="imagewidth" xsi:type="text"  visible="true" sort_order="2" >
+                                   				<label translate="true">Image Width</label>
+                                   			</parameter>
+                                   			<parameter name="imageheight" xsi:type="text"  visible="true" sort_order="3" >
+                                   				<label translate="true">Image Height</label>
+                                   			</parameter>
+
+                        </parameters>
+            </widget>
+</widgets>
