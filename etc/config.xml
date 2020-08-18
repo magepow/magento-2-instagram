@@ -13,7 +13,28 @@
                 <username>aloteam</username>
                 <accessToken>IGQVJXTlN0Mjh1azVpUkUxU1JEcDdBa25RT3A0OW5mQUswT0tCVHRacW9BUDljZAV8tbkxaY0tIVDhzNkEzMVllc3V6aUVMNFA5SkFndTdFS1pmMldSZA3FZAQmxJRUdmVFg5SjlSNmJ3cFJiekl1dTctSAZDZD</accessToken>
                 <limit>12</limit>
-                <lazyload>1</lazyload>
+                <lazyload>0</lazyload>
+                <slide>1</slide>
+                <vertical>false</vertical>
+                <infinite>true</infinite>
+                <autoplay>true</autoplay>
+                <arrows>false</arrows>
+                <center_mode>false</center_mode>
+                <dots>false</dots>
+                <fade>false</fade>
+                <rows>1</rows>
+                <speed>6000</speed>
+                <autoplay_speed>0</autoplay_speed>
+                <padding>0</padding>
+                <mobile>2</mobile>
+                <portrait>3</portrait>
+                <landscape>3</landscape>
+                <tablet>4</tablet>
+                <notebook>4</notebook>
+                <laptop>5</laptop>
+                <desktop>5</desktop>
+                <widescreen>6</widescreen>
+                <visible>6</visible>
             </general>
         </magepow_instagram>    
 	</default>

@@ -16,20 +16,9 @@ $limit      = $helper->getConfigModule('general/limit');
 ?>
 <div class="social-feed instagram clearfix <?php /* @escapeNotVerified */ echo $selector ?>">
     <section class="section-content"
-        data-autoplay="true" 
-        data-autoplay-speed="0" 
-        data-speed="6000"
-        data-dots="false" 
-        data-css-ease="linear"
-        data-infinite="true" 
-        data-padding="15" 
-        data-vertical="false" 
-        data-vertical-swiping="false"
-        data-rows="1" 
-        data-slides-to-show="6" 
-        data-swipe-to-slide="true"
-        data-arrows="false" 
-        data-responsive='[{"breakpoint": 1921, "settings": {"slidesToShow": 6}}, {"breakpoint": 1920, "settings": {"slidesToShow": 6}}, {"breakpoint": 1200, "settings": {"slidesToShow": 5}}, {"breakpoint": 992, "settings": {"slidesToShow": 4}}, {"breakpoint": 768, "settings": {"slidesToShow": 3}}, {"breakpoint": 576, "settings": {"slidesToShow": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 2}}, {"breakpoint": 361, "settings": {"slidesToShow": 1}}, {"breakpoint": 1, "settings": {"slidesToShow": 1}}]'
+        <?php foreach ($this->getFrontendCfg() as $opt) :?>
+            data-<?php echo $opt ?>='<?php echo $this->getData($opt) ?>'
+        <?php endforeach;?>
     >
         <h4 class="title"><?php /* @escapeNotVerified */ echo $this->getTitle() ?></h4>
     </section>
