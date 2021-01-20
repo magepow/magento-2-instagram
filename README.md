@@ -1,35 +1,19 @@
 # magento2-instagram
-# rerequisites
+Instgram extension for Magento2 allows users show list of images on instagram to the frontstore of website
 
-Before you continue, ensure you meet the following requirements:
+## Step 1 : Download magento2-instagram extension
 
-  * You have installed magento2
-  * You are using a Linux or Mac OS machine. Windows is not currently supported.
-  Install magento2-instagram extension
-
-# Step 1 : Download magento2-instagram extension
-
- ## Install via composer (recommend)
+ ### Install via composer (recommend)
 Run the following commands in Magento 2 root folder:
 ```
 composer require magepow/instagram
 php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy -f
 ```
-  ## Install manual
-  
-* extract file from archive
-* deploy file into Magento2 folder `app/code/Magepow/Instagram`. Run following commands
 
- ```
- php bin/magento setup:upgrade
- php bin/magento setup:static-content:deploy -f
- php bin/magento cache:flush
- ```
+## Step 2: User guide
 
-# Step 2: User guide
-
-  ## 1. General configuration
+  ### 1. General configuration
 
   Login to magento admin, choose `stores->configuration->magepow->instagram`
   
@@ -37,7 +21,7 @@ php bin/magento setup:static-content:deploy -f
 
   Select `yes` to enable the module and configure name, accesstoken of your instagram and limitation
   
-  ## 2. Instagram widget
+  ### 2. Instagram widget
   
    Choose `content->wigdet` then add widget
    
