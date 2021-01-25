@@ -1,4 +1,4 @@
-# magento2-instagram
+# Magento2 Instagram
 Instgram extension for Magento2 allows users show list of images on instagram to the frontstore of website
 
 ## Step 1 : Download magento2-instagram extension
