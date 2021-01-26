@@ -1,9 +1,54 @@
-# Magento 2 Instagram
-Instgram extension for Magento2 allows users show list of images on instagram to the frontstore of website
+## Magento 2 Instargram Feed extension 
 
-## Step 1 : Download magento2-instagram extension
+**Magento 2 Instagram extension** helps Magento websites engage customers by integrating beautiful instagram images into your store.
 
- ### Install via composer (recommend)
+[![Latest Stable Version](https://poser.pugx.org/magepow/instagram/v/stable)](https://packagist.org/packages/magepow/instagram)
+[![Total Downloads](https://poser.pugx.org/magepow/instagram/downloads)](https://packagist.org/packages/magepow/instagram)
+
+See detailed description:
+- Detailed description: 
+- Demo frontend: http://demo.magepow.com/instagram/ 
+- Demo backend: http://demo.magepow.com/instagram/admin
+
+### Features
+
+- Easy-to-customize admin panel
+
+- Enable / Disable with one click
+ 
+- Integrate your Instagram account into the website quickly
+
+- Select the number of instagram images displayed on the website
+
+- Customize instagram slider effects
+
+- Support widget: can add instagram feed in any position you want
+
+- Respond to devices. Customizable dimensions in admin panel
+
+- Add unlimited instagram widget
+
+- Open source compatible
+
+- Support customized upon request
+
+### Why do you need Instagram extension
+
+- Reduce project completion time
+
+- Create a beautiful website interface
+
+- Interacting with customers
+
+- Increase conversion rates
+
+- Effective marketing tools
+
+## How to use Instagram Feed?
+### How to install this extension?
+### Step 1 : Download magento2-instagram extension
+
+ #### Install via composer (recommend)
 Run the following commands in Magento 2 root folder:
 ```
 composer require magepow/instagram
@@ -11,9 +56,9 @@ php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy -f
 ```
 
-## Step 2: User guide
+### Step 2: User guide
 
-  ### 1. General configuration
+  #### 1. General configuration
 
   Login to magento admin, choose `stores->configuration->magepow->instagram`
   
@@ -21,7 +66,7 @@ php bin/magento setup:static-content:deploy -f
 
   Select `yes` to enable the module and configure name, accesstoken of your instagram and limitation
   
-  ### 2. Instagram widget
+  #### 2. Instagram widget
   
    Choose `content->wigdet` then add widget
    
@@ -47,7 +92,7 @@ php bin/magento setup:static-content:deploy -f
    ```
    php bin/magento cache:clean
    ```
-  ## 3. Result
+  #### 3. Result
    
    ![Image of magento store front](https://github.com/magepow/magento2-instagram/blob/master/media/result.PNG)
    
@@ -112,8 +157,7 @@ If this project help you reduce time to develop, you can give me a cup of coffee
 
 * [Hire Magento Developer](https://magepow.com/hire-magento-developer.html)
 
-[![Latest Stable Version](https://poser.pugx.org/magepow/instagram/v/stable)](https://packagist.org/packages/magepow/instagram)
-[![Total Downloads](https://poser.pugx.org/magepow/instagram/downloads)](https://packagist.org/packages/magepow/instagram)
+
 
 
 
