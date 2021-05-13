@@ -4,6 +4,7 @@
 
 [![Latest Stable Version](https://poser.pugx.org/magepow/instagram/v/stable)](https://packagist.org/packages/magepow/instagram)
 [![Total Downloads](https://poser.pugx.org/magepow/instagram/downloads)](https://packagist.org/packages/magepow/instagram)
+[![Daily Downloads](https://poser.pugx.org/magepow/instagram/d/daily)](https://packagist.org/packages/magepow/instagram)
 
 See detailed description:
 - Detailed description: 
