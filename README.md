@@ -1,15 +1,21 @@
 ## Magento 2 Instargram Feed extension 
 
-**Magento 2 Instagram extension** helps Magento websites engage customers by integrating beautiful instagram images into your store.
+[**Magento 2 Instagram extension by Magepow**](https://magepow.com/magento-2-instagram-integration.html) helps Magento websites engage customers by integrating beautiful instagram images into your store.
+
+Instagram is one of the most engaged social media apps in the world. This is an influential platform. And of course you can use instagram images to increase traffic to your website. Make it easy with the Magento 2 Instagram extension.
 
 [![Latest Stable Version](https://poser.pugx.org/magepow/instagram/v/stable)](https://packagist.org/packages/magepow/instagram)
 [![Total Downloads](https://poser.pugx.org/magepow/instagram/downloads)](https://packagist.org/packages/magepow/instagram)
 [![Daily Downloads](https://poser.pugx.org/magepow/instagram/d/daily)](https://packagist.org/packages/magepow/instagram)
 
 See detailed description:
-- Detailed description: 
-- Demo frontend: http://demo.magepow.com/instagram/ 
-- Demo backend: http://demo.magepow.com/instagram/admin
+- Detailed description: [**Magento 2 Instagram Integration**](https://magepow.com/magento-2-instagram-integration.html)
+
+- [**Demo frontend Instagram extension**](http://demo.magepow.com/instagram/)
+
+- [**Demo backend Instagram extension**](http://demo.magepow.com/instagram/admin)
+
+- [**Doccumentation**](https://docs.magepow.com/instagram/)
 
 ### Features
 
