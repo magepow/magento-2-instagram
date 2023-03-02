@@ -1,3 +1,5 @@
+[<img src="https://github.com/magepow/themeforest/blob/master/shopify/shopify_affiliate.jpg" >](https://shopify.pxf.io/VyL446)
+
 ## Magento 2 Instagram Feed extension 
 
 **Magento 2 Instagram extension by Magepow** helps Magento websites engage customers by integrating beautiful instagram images into your store.
